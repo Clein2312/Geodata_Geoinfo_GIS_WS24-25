@@ -1,5 +1,5 @@
 # Welcome to the final assignment of the courses HSRW the courses HSRWFundamentals of Geodata Management Systems, Geoinformatics and Geographic Information Systems.
-## 0. General Remarks
+
 This course contains the final assignment for both the bachelor and the master course. As the level of complexity of the evaluation differs, you will find your assignment in the respective folder.
 - If you belong to the bachelor study programs, you will find your assignment in [**assignment_bachelor**](./assignment_bachelor/).
 - If you belong to the master study program, you will find your assignment in [**assignment_master**](./assignment_master).
