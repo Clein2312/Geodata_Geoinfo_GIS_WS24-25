@@ -2,7 +2,7 @@
 ## 0. General Remarks
 This course contains the final assignment for both the bachelor and the master course. As the level of complexity of the evaluation differs, you will find your assignment in the respective folder.
 - If you belong to the bachelor study programs, you will find your assignment in [**assignment_bachelor**]()
-- If you belong to the master study program, you will find your assignment in[**assignment_master**]()
+- If you belong to the master study program, you will find your assignment in [**assignment_master**]()
 
 Please also check the associated HSRW Moodle course [**"8136 Fundamentals of Geodata Management Systems, WS2024/25"**](https://moodle.hochschule-rhein-waal.de/course/view.php?id=18484)
 
