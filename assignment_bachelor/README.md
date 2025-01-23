@@ -26,7 +26,7 @@ You have to produce a similar plot but with several stripes in one diagram. Each
 **Sub-Task 1.1:** <br>
 Select the stations which are (1) in Bayern, (2) still active and (3) started before 1950. It should be **# stations.** Use **Pandas** to read the station description file [KL_Jahreswerte_Beschreibung_Stationen.txt] (https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/annual/kl/historical/KL_Jahreswerte_Beschreibung_Stationen.txt) from the historical KL data collection.
 
-Have a look at the available Jupyter notebooks in the geodata git repository. Especially the following could be a good starting point: [gdms0180_DWD_NRW_Annual_Temp_vs_Altitude/gnb0181_DWD_NRW_Annual_Temp_vs_Altitude_V001.ipynb](../gdms0180_DWD_NRW_Annual_Temp_vs_Altitude/gnb0181_DWD_NRW_Annual_Temp_vs_Altitude_V001.ipynb)
+Have a look at the available Jupyter notebooks in the geodata git repository or in the [Moodle course](https://moodle.hochschule-rhein-waal.de/course/view.php?id=18484)
 
 Modify the notebook according to your needs. 
 
@@ -42,8 +42,7 @@ Use the dataframe with the temperature time series merged columnwise together wi
 
 <img src="images/NRW_Annual_Temp_Diff_Stripes_02.png" alt="Warming Stripes NRW" width="600" border="10" /><br>
 
-Create a similar plot but for the selected stations including the annual temperature data of 2022. Let the time series run from 1950 to 2022. Copy the relevant code from notebook 
-[gdms0155_DWD_NRW_5_Warming_Stripes/gdms155_DWD_NRW_5_Warming_Stripes.ipynb](../gdms0155_DWD_NRW_5_Warming_Stripes/gdms155_DWD_NRW_5_Warming_Stripes.ipynb). 
+Create a similar plot but for the selected stations including the annual temperature data of 2022. Let the time series run from 1950 to 2022. 
 
 Note that for a station with ID $\mathrm{sno}$, the temperature $\Delta T_\mathrm{sno}(k)$ shown in year $k$ is the negative (blue) or positive (red) deviation from the reference temperature ${\bar{T}}_{\mathrm{sno}}$, which is the mean annual temperature of the station between 1971 and 2000. 
 
