@@ -10,7 +10,7 @@ You can also use the notebooks from the [**repository**](https://github.com/rolf
 
 ## General Remarks
 
-1. Due date is **Friday 2024-09-20T23:59:59CET**. 
+1. Due date is **Friday 2025-02-28T23:59:59CET**. 
 2. You can withdraw from exam registration until two weeks before! 
 3. You do not have to write a formal report but you have to sketch the steps you have taken to do the analyses. The code you are uploading as well as additional documentation including a video has to **enable us to redo your work completely!** You must tell us which data you use and where to download it.
 4. You can work in **groups of 1 - 3 students**. You have work in the same groups chosen for the assignment in [Moodle course](https://moodle.hochschule-rhein-waal.de/course/view.php?id=18484). 
