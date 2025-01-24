@@ -50,28 +50,7 @@ $$
 \Delta T_\mathrm{sno}(k) = T_\mathrm{sno}(k) - \bar{T}_\mathrm{sno}
 $$
 
-
-
-## 2. Digitization: Burial Mounds in Uedemer Hochwald (20 Points)
-
-<img src="images/Burial_Mounds.png" alt="Burial Mounds Map" width="600" border="10" /><br>
-*Fig.: Burial mounds in Uedemer Hochwald.*
-
-South west of the village Marienbaum (belongs to Xanten municipality) is the forest "Uedemer Hochwald" in which many burial mounds (German: Hügelgrab (sg.), Hügelgräber (pl.)) from our ancestors of the Hallstatt period (a Celtic culture between 850 and 450 BCE) can be found. The above picture shows a map section with some of the burial mounds indicated as grey dots. 
- 
-**Task 2.1:** <br> 
-Georeference the picture of the map above. Start with the QGIS project `gdms0000_Burial_Mounds_Uedem_V001.qgz` in the assignment folder. Georeference the picture of the map by means of the QGIS Georeferencer together with the layer **DTK10**, the NRW topographic map in 1:10000, already imported from the NRW WMS server and added in the QGIS project. Use crossing forest trails, crossroads, road junctions and other features you can identify on DTK10 as land marks (aka ground control points, GCP) with known coordinates (can be read from the QGIS map canvas). Use EPSG:25832. Add the georeferenced map to the QGIS project.
- 
-**Task 2.2:** <br> 
-Create a hillshade model from the DTM layer. Plot your georeferenced map partly transparent on top of the hillshade model. Compare. What do you observe? How good is the georeferenced map section showing the burial mounds? 
-
-**Task 2.3:** <br> 
-Use the DTM (not the hillshapde model!) and measure the typical mound heights relative to their direct environment/neighborhood (not the absolute height above sealevel!). What is their typical elvation in the landscape?
-
-**Task 2.4:** <br> 
-Study the hillshade model in direction East-North-East of the burial mounds area and search for weakly visible reectangular structures which are not paths. What do you observe? Do you have a guess about the origin of these patterns? Choose at least one of the structures, digitize it with a polygon and save it as a geopackage.
-
-## 3. OpenHygrisC Nitrate Data: Create a Movie with the QGIS Temporal Controller Connected to PostgreSQL / PostGIS (20 Points)
+## 2. OpenHygrisC Nitrate Data: Create a Movie with the QGIS Temporal Controller Connected to PostgreSQL / PostGIS (20 Points)
 
 **Spatio-Temporal Data Anmination using PostGIS together with QGIS Temporal Controller**
 
@@ -89,7 +68,7 @@ Produce a mpeg (or similar) video with the QGIS Temporal Controller. Don't use t
 
 
 
-## 4. Supervised Land Cover Classification (30 Points)
+## 3. Supervised Land Cover Classification (20 Points)
 
 Land cover classification is the process of identifying and categorizing physical materials on the Earth's surface using data from remote sensing technologies. It involves analyzing the characteristics of the different surface types and grouping them in predefined classes, for example forests, water bodies, soil, agricultural areas and so on. 
 For this task you will need the corrected drone image of the survey area from your excursion project. You will also need Orfeo Toolbox (OTB) to perform the classification.
@@ -112,4 +91,4 @@ For this task you will need the corrected drone image of the survey area from yo
 
 
 
-## 5. Produce a Video and Explain your Methods and Achievements. (10 Points)
+## 4. Produce a Video and Explain your Methods and Achievements. (10 Points)
