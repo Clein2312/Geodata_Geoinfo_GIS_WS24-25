@@ -106,7 +106,7 @@ Find a way to import the data in QGIS to use the temporal controller
 Genarate a video of the monthly snapshots of the soil moisture index from 2010 to 2018 for the SMI_topsoil and another video for the SMI_totalsoil. Make sure to use an appropiate simbology (you can find an appropiate color scale an explanation of the SMI in the Drought Monitor Website).
 
 
-## 6. Supervised Land Cover Classification (10 Points)
+## 6. Supervised Land Cover Classification (20 Points)
 Land cover classification is the process of identifying and categorizing physical materials on the Earth's surface using data from remote sensing technologies. It involves analyzing the characteristics of the different surface types and grouping them in predefined classes, for example forests, water bodies, soil, agricultural areas and so on. 
 For this task you will need the corrected drone image of the survey area from your excursion project. You will also need Orfeo Toolbox (OTB) to perform the classification.
 
@@ -128,4 +128,4 @@ For this task you will need the corrected drone image of the survey area from yo
 
 
 
-## 7. Produce a Video and Explain your Methods and Achievements. (20 Points)
+## 7. Produce a Video and Explain your Methods and Achievements. (10 Points)
