@@ -106,8 +106,26 @@ Find a way to import the data in QGIS to use the temporal controller
 Genarate a video of the monthly snapshots of the soil moisture index from 2010 to 2018 for the SMI_topsoil and another video for the SMI_totalsoil. Make sure to use an appropiate simbology (you can find an appropiate color scale an explanation of the SMI in the Drought Monitor Website).
 
 
-## 6. FREE EXERCISE (10 Points)
+## 6. Supervised Land Cover Classification (10 Points)
+Land cover classification is the process of identifying and categorizing physical materials on the Earth's surface using data from remote sensing technologies. It involves analyzing the characteristics of the different surface types and grouping them in predefined classes, for example forests, water bodies, soil, agricultural areas and so on. 
+For this task you will need the corrected drone image of the survey area from your excursion project. You will also need Orfeo Toolbox (OTB) to perform the classification.
 
-Do something exiting!
+1. Download and install OTB as explained [the following link](https://www.orfeo-toolbox.org/CookBook/Installation.html). **Notice the differences according to your operative system!**
+
+1. Once installed you have to go into QGIS and enable the plugin and make sure to set the paths pointing to **your OTB installation** as described in [this link](https://www.orfeo-toolbox.org/CookBook/QGISInterface.html)
+
+1. If you haven't done that yet. You should download the multispectral orthorectified of the survey area that your group generated and import it in QGIS as a raster layer. 
+
+1. Rearrange the bands such that they are in the order (Green, Red, Red-Edge, Near-Infrared).
+
+1. Currently the rasters contain floating values which will generate a problem with the plugin. So you need to convert these values into integers. For this use the Translate (convert format) from GDAL (you will find it in the processing toolbox).
+
+1. Classify the land cover considering at least the following classes: water body, man-made structures, soil, grass, trees.
+
+1. Assess the resulting shapefile of your classification. Discuss where it performs good and where it has difficulty with the classes.
+
+1. Find out how much area do the solar panels cover?
+
+
 
 ## 7. Produce a Video and Explain your Methods and Achievements. (20 Points)
