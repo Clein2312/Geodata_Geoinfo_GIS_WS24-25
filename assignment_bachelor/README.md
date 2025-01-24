@@ -63,7 +63,7 @@ Another  source of information is the training material by the master student Si
 **TASK:**
 Get the OpenHypE system running. It consists of OpenHygrisC data (station locations, masurement data, catalog of substances) stored in PostgreSQL/PostGIS with QGIS utilizing a live link to the geodatabase. Start with my OpenHyPE git repo. Read the code and execute it. Remember the data base concepts 'views'. They are stored queries (select statements) generally joining and projecting relations. You find some `create view` statements in the Jupyter Notebooks. Furthermore several indexes were created. They are used to improve the performance of data retrieval. They are part of database optimization.
 
-Produce a mpeg (or similar) video with the QGIS Temporal Controller. Don't use the temporal controller slider to move back and forth, instead export the images to produce a video. The video should be of the Nitrate concentration from the earliest available Nitrate measurement (early 1960's) up to the latest measurement.
+Produce a mpeg (or similar) video with the QGIS Temporal Controller. Don't use the temporal controller slider to move back and forth, instead export the images to produce a video. The video should be of the Nitrate concentration from the earliest available Nitrate Concentration Measurement (early 1960's) up to the latest measurement.
 
 
 

@@ -49,7 +49,7 @@ $$
 \Delta T_\mathrm{sno}(k) = T_\mathrm{sno}(k) - \bar{T}_\mathrm{sno}
 $$
 
-## 2. Improved Warming Stripes and Interpolation (15 Points)
+## 2. Improved Warming Stripes and Interpolation (10 Points)
 **Sub-Task 2.1:** <br>
 Improve your warming stripes representation by cleaning the dataset. Omit stations which are missing more than 95% of the dates that you are interested in analysing. 
 
@@ -59,26 +59,8 @@ Correct the map of the active stations to display only the resulting stations fr
 **Sub-Task 2.3** <br>
 Your taks is to investigate how well are the data points resulting from interpolation, more specifically Inverse Distance Weights Interpolations (IDW). For this, you should remove the measurements of Station 4104 (Regensburg) from your dataset. Use IDW to interpolate/predict the temperature for the position of this station and compare your interpolated values with the real measurements. Discuss your results.
 
-## 3. Digitization: Burial Mounds in Uedemer Hochwald (10 Points)
 
-<img src="images/Burial_Mounds.png" alt="Burial Mounds Map" width="600" border="10" /><br>
-*Fig.: Burial mounds in Uedemer Hochwald.*
-
-South west of the village Marienbaum (belongs to Xanten municipality) is the forest "Uedemer Hochwald" in which many burial mounds (German: Hügelgrab (sg.), Hügelgräber (pl.)) from our ancestors of the Hallstatt period (a Celtic culture between 850 and 450 BCE) can be found. The above picture shows a map section with some of the burial mounds indicated as grey dots. 
- 
-**Task 3.1:** <br> 
-Georeference the picture of the map above. Start with the QGIS project `gdms0000_Burial_Mounds_Uedem_V001.qgz` in the assignment folder. Georeference the picture of the map by means of the QGIS Georeferencer together with the layer **DTK10**, the NRW topographic map in 1:10000, already imported from the NRW WMS server and added in the QGIS project. Use crossing forest trails, crossroads, road junctions and other features you can identify on DTK10 as land marks (aka ground control points, GCP) with known coordinates (can be read from the QGIS map canvas). Use EPSG:25832. Add the georeferenced map to the QGIS project.
- 
-**Task 3.2:** <br> 
-Create a hillshade model from the DTM layer. Plot your georeferenced map partly transparent on top of the hillshade model. Compare. What do you observe? How good is the georeferenced map section showing the burial mounds? 
-
-**Task 3.3:** <br> 
-Use the DTM (not the hillshapde model!) and measure the typical mound heights relative to their direct environment/neighborhood (not the absolute height above sealevel!). What is their typical elvation in the landscape?
-
-**Task 3.4:** <br> 
-Study the hillshade model in direction East-North-East of the burial mounds area and search for weakly visible reectangular structures which are not paths. What do you observe? Do you have a guess about the origin of these patterns? Choose at least one of the structures, digitize it with a polygon and save it as a geopackage.
-
-## 4. OpenHygrisC Nitrate Data: Create a Movie with the QGIS Temporal Controller Connected to PostgreSQL / PostGIS (15 Points)
+## 4. OpenHygrisC Nitrate Data: Create a Movie with the QGIS Temporal Controller Connected to PostgreSQL / PostGIS (10 Points)
 
 **Spatio-Temporal Data Animation using PostGIS together with QGIS Temporal Controller**
 
@@ -91,9 +73,9 @@ Another  source of information is the training material by the master student Si
 **TASK:**
 Get the OpenHypE system running. It consists of OpenHygrisC data (station locations, masurement data, catalog of substances) stored in PostgreSQL/PostGIS with QGIS utilizing a live link to the geodatabase. Start with my OpenHyPE git repo. Read the code and execute it. Remember the data base concepts 'views'. They are stored queries (select statements) generally joining and projecting relations. You find some `create view` statements in the Jupyter Notebooks. Furthermore several indexes were created. They are used to improve the performance of data retrieval. They are part of database optimization.
 
-Produce a mpeg (or similar) video with the QGIS Temporal Controller. Don't use the temporal controller slider to move back and forth, instead export the images to produce a video. The video should be of the Nitrate concentration from the earliest available Nitrate measurement (early 1960's) up to the latest measurement.
+Produce a mpeg (or similar) video with the QGIS Temporal Controller. Don't use the temporal controller slider to move back and forth, instead export the images to produce a video. The video should be of the Nitrate concentration from the earliest available Nitrate Concentration Measurement (early 1960's) up to the latest measurement.
 
-## 5. SMI Video (20 Points)
+## 5. SMI Video (10 Points)
 The Soil Moisture Index (SMI) is a product from the Drought Monitor of Umweltforschungszentrum Leipzig (UFZ). It classifies the soil moisture in soil moisture index classes (drought classes) according to the long-term local soil moisture distribution. The assignment of a particular soil moisture value to a soil moisture index is not fixed but depends on the history of the local soil moisture distribution over time. Example: A soil moisture of 10% (volumetric) might be classified as very dry at a usually wet location with a higher mean moisture over the last decades but classified as moderate at another location with lower mean moisture.
 
 **Task 5.1:** <br>
