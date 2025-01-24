@@ -108,7 +108,7 @@ For this task you will need the corrected drone image of the survey area from yo
 
 1. Assess the resulting shapefile of your classification. Discuss where it performs good and where it has difficulty with the classes.
 
-1. Find out how much area of algea is covering the lake?
+1. Find out how much area of algae is covering the lake?
 
 
 
