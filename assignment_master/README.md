@@ -1,4 +1,4 @@
-# MIE_9522 Geoinformatics WS2024-2025 - <br> Final Assignment
+# 9522 Geoinformatics WS2024-2025 - <br> Final Assignment
 
 ## 0. General Remarks
 1.This assignment is Only for the students of Geoinformatics. The groups formed by the **Bsc.Geodata Management Systems and Bsc. Geographical Information Systems will have a different assignment**
