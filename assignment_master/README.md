@@ -60,7 +60,7 @@ Correct the map of the active stations to display only the resulting stations fr
 Your taks is to investigate how well are the data points resulting from interpolation, more specifically Inverse Distance Weights Interpolations (IDW). For this, you should remove the measurements of Station 4104 (Regensburg) from your dataset. Use IDW to interpolate/predict the temperature for the position of this station and compare your interpolated values with the real measurements. Discuss your results.
 
 
-## 4. OpenHygrisC Nitrate Data: Create a Movie with the QGIS Temporal Controller Connected to PostgreSQL / PostGIS (10 Points)
+## 3. OpenHygrisC Nitrate Data: Create a Movie with the QGIS Temporal Controller Connected to PostgreSQL / PostGIS (10 Points)
 
 **Spatio-Temporal Data Animation using PostGIS together with QGIS Temporal Controller**
 
@@ -75,20 +75,20 @@ Get the OpenHypE system running. It consists of OpenHygrisC data (station locati
 
 Produce a mpeg (or similar) video with the QGIS Temporal Controller. Don't use the temporal controller slider to move back and forth, instead export the images to produce a video. The video should be of the Nitrate concentration from the earliest available Nitrate Concentration Measurement (early 1960's) up to the latest measurement.
 
-## 5. SMI Video (10 Points)
+## 4. SMI Video (10 Points)
 The Soil Moisture Index (SMI) is a product from the Drought Monitor of Umweltforschungszentrum Leipzig (UFZ). It classifies the soil moisture in soil moisture index classes (drought classes) according to the long-term local soil moisture distribution. The assignment of a particular soil moisture value to a soil moisture index is not fixed but depends on the history of the local soil moisture distribution over time. Example: A soil moisture of 10% (volumetric) might be classified as very dry at a usually wet location with a higher mean moisture over the last decades but classified as moderate at another location with lower mean moisture.
 
-**Task 5.1:** <br>
+**Task 4.1:** <br>
 Download the historical Soil Moisture Index data from the topsoil (up to 25 cm depth) and total soil moisture (up to 1.8m) datasets from the official [UFZ Drought Monitor Website](https://www.ufz.de/index.php?en=37937).
 
-**Task 5.2** <br>
+**Task 4.2** <br>
 Find a way to import the data in QGIS to use the temporal controller
 
-**Task 5.3**
+**Task 4.3**
 Genarate a video of the monthly snapshots of the soil moisture index from 2010 to 2018 for the SMI_topsoil and another video for the SMI_totalsoil. Make sure to use an appropiate simbology (you can find an appropiate color scale an explanation of the SMI in the Drought Monitor Website).
 
 
-## 6. Supervised Land Cover Classification (20 Points)
+## 5. Supervised Land Cover Classification (20 Points)
 Land cover classification is the process of identifying and categorizing physical materials on the Earth's surface using data from remote sensing technologies. It involves analyzing the characteristics of the different surface types and grouping them in predefined classes, for example forests, water bodies, soil, agricultural areas and so on. 
 For this task you will need the corrected drone image of the survey area from your excursion project. You will also need Orfeo Toolbox (OTB) to perform the classification.
 
@@ -110,4 +110,4 @@ For this task you will need the corrected drone image of the survey area from yo
 
 
 
-## 7. Produce a Video and Explain your Methods and Achievements. (10 Points)
+## 6. Produce a Video and Explain your Methods and Achievements. (10 Points)
