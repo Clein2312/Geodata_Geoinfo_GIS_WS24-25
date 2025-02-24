@@ -51,10 +51,10 @@ $$
 
 ## 2. Improved Warming Stripes and Interpolation (10 Points)
 **Sub-Task 2.1:** <br>
-Improve your warming stripes representation by cleaning the dataset. Omit stations which are missing more than 95% of the dates that you are interested in analysing. 
+Improve your warming stripes representation by cleaning the dataset. Omit stations which are missing more than 5% of the data in the dates that you are interested in analysing. 
 
 **Sub-Task 2.2:** <br>
-Correct the map of the active stations to display only the resulting stations from task 1.5
+Correct the map of the active stations to display only the resulting stations from task 2.1
 
 **Sub-Task 2.3** <br>
 Your taks is to investigate how well are the data points resulting from interpolation, more specifically Inverse Distance Weights Interpolations (IDW). For this, you should remove the measurements of Station 4104 (Regensburg) from your dataset. Use IDW to interpolate/predict the temperature for the position of this station and compare your interpolated values with the real measurements. Discuss your results.
